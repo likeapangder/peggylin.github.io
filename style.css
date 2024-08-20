@@ -58,6 +58,7 @@ section {
     display: flex; /* Enables horizontal alignment */
     align-items: center; /* Vertically aligns the image and text */
     justify-content: center; /* Centers the content horizontally within the section */
+    gap: 40px;
     margin: 5rem 0;
 
 }
