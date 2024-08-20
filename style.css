@@ -71,13 +71,13 @@ section {
     margin-right: 40px;
 }
 
-.bio-image img {
+/* .bio-image img {
     width: 400px;
     height: 480px;
     position: absolute;
     top: -10px;
     left: -53px;    
-}
+} */
 
 .bio-text {
     text-align: left; /* Align text to the left */
