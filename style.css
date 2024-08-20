@@ -76,7 +76,6 @@ section {
     height: 100%;
     top: -10px;
     left: -53px;
-    object-fit: cover; /* Ensures the image covers the entire circular area */
     border-radius: 50%; /* Maintains the circular shape */
 }
 
