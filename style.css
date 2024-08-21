@@ -156,12 +156,12 @@ section {
     border-radius: 8px;
     overflow: hidden;
     width: 60%;
-    height: 50%; 
+    height: auto; 
 }
 
 .project-bottom img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
     object-fit: cover; /* Ensures the image covers the entire container */
     display: block;
 }
