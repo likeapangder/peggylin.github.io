@@ -154,7 +154,7 @@ section {
     height: 300px; /* Set a fixed height */
 }
 
-.project-bottom iframe {
+.project-bottom img {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensures the image covers the entire container */
