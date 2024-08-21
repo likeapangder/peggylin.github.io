@@ -155,7 +155,7 @@ section {
     grid-column: span 2; /* Span across both columns */
     border-radius: 8px;
     overflow: hidden;
-    width: 100%; /* Ensure full width */
+    width: 80%;
     height: auto; /* Set a fixed height */
 }
 
