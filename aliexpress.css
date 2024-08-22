@@ -111,6 +111,10 @@ ul li {
     margin-bottom: 2rem;
 }
 
+.image-container-lowfid {
+    height: 600px;
+}
+
 .next-project {
     text-align: right;
     font-weight: 600;
