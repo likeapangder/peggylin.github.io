@@ -120,7 +120,7 @@ section {
 }
 
 .project-left {
-    padding: 20px;
+    padding-left: 60px;
     line-height: 5px;
     border-radius: 8px;
 }
@@ -140,7 +140,7 @@ section {
 }
 
 .project-right {
-    padding: 20px;
+    padding-right: 60px;
     /* padding-top: 0; */
 }
 
@@ -182,12 +182,13 @@ section {
     display: inline-block;
     margin-top: 10px;
     font-weight: bold;
-    color: #054d0e;
+    color: #020826;
     text-decoration: none;
 }
 
 .view-project:hover {
     text-decoration: underline;
+    color: #6B8964;
 }
 
 footer {
