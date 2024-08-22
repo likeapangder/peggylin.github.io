@@ -112,7 +112,13 @@ ul li {
 }
 
 .image-container-lowfid {
-    height: 600px;
+    width: 600px;
+    height: 400px;
+}
+
+.image-container-lowfid img{
+    width: 100%;
+    height: 100%;
 }
 
 .next-project {
