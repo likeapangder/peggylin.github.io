@@ -120,7 +120,8 @@ section {
 }
 
 .project-left {
-    margin-left: 500px;
+    /* margin-left: 500px; */
+    text-align: right;
     line-height: 5px;
     border-radius: 8px;
 }
@@ -140,7 +141,8 @@ section {
 }
 
 .project-right {
-    margin-right: 500px;
+    /* margin-right: 500px; */
+    text-align: left;
     /* padding-top: 0; */
 }
 
