@@ -121,6 +121,7 @@ section {
 
 .project-left {
     /* margin-left: 600px; */
+    text-align: left;
     line-height: 5px;
     border-radius: 8px;
 }
