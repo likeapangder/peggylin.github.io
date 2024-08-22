@@ -120,7 +120,7 @@ section {
 }
 
 .project-left {
-    text-align: center;
+    margin-left: 600px;
     line-height: 5px;
     border-radius: 8px;
 }
