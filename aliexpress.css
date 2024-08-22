@@ -111,15 +111,6 @@ ul li {
     margin-bottom: 2rem;
 }
 
-.image-container-lowfid {
-    height: 200px;
-}
-
-.image-container-lowfid img{
-    width: 100%;
-    height: 100%;
-}
-
 .next-project {
     text-align: right;
     font-weight: 600;
