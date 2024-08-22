@@ -120,7 +120,7 @@ section {
 }
 
 .project-left {
-    margin-left: 375px;
+    margin-left: 500px;
     line-height: 5px;
     border-radius: 8px;
 }
@@ -140,7 +140,7 @@ section {
 }
 
 .project-right {
-    margin-right: 375px;
+    margin-right: 500px;
     /* padding-top: 0; */
 }
 
@@ -161,22 +161,6 @@ section {
     object-fit: cover;
     display: block;
 }
-
-/* .project-bottom {
-    grid-column: span 2;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 100%;
-    height: auto; 
-}
-
-.project-bottom img {
-    width: 30%;
-    height: auto;
-    object-fit: cover; 
-    display: block;
-    margin: 0 auto;
-} */
 
 .view-project {
     display: inline-block;
