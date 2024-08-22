@@ -120,7 +120,7 @@ section {
 }
 
 .project-left {
-    margin-left: 60px;
+    margin-left: 90px;
     line-height: 5px;
     border-radius: 8px;
 }
@@ -140,7 +140,7 @@ section {
 }
 
 .project-right {
-    margin-right: 60px;
+    margin-right: 90px;
     /* padding-top: 0; */
 }
 
