@@ -111,6 +111,18 @@ ul li {
     margin-bottom: 2rem;
 }
 
+.image-container-1 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 834;
+    height: 400;
+}
+
+.image-container-1 img{
+    width: 100%;
+    height: auto;
+}
+
 .next-project {
     text-align: right;
     font-weight: 600;
