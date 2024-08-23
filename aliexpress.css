@@ -121,7 +121,8 @@ ul li {
 .image-container-1 img{
     width: 100%;
     height: auto;
-    top: -100px;
+    position: absolute;
+    top: 60px;
 }
 
 .next-project {
