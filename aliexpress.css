@@ -115,7 +115,7 @@ ul li {
     width: 100%;
     height: auto;
     object-fit: cover;
-    object-position: center;
+    position: absolute;
     top: -50px;
 }
 
