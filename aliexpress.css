@@ -114,11 +114,11 @@ ul li {
 .image-container-1 {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    width: 834px;
-    height: 365px;
+    /* width: 834px;
+    height: 365px; */
 }
 
-.image-container-1 img{
+.image-container-1 img {
     width: 100%;
     height: auto;
 }
