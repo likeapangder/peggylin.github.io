@@ -113,10 +113,8 @@ ul li {
 
 .lowfid-image {
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
-    top: -50px;
+    height: 300px;
+    top: -100px;
 }
 
 .next-project {
