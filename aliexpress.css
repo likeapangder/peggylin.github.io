@@ -53,8 +53,8 @@ header nav {
 }
 
 .content-wrapper {
-    background-color: #eaddcf;
-    /* background-color: #f9f4ef; */
+    /* background-color: #eaddcf; */
+    background-color: #f9f4ef;
     padding: 2rem;
     margin: 20px auto;
     border-radius: 8px;
