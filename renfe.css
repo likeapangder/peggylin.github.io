@@ -1,6 +1,6 @@
 body {
     font-family: 'Tahoma', sans-serif;
-    background-color: #eaddcf;
+    background-color: #fffffe;
     color: #082620;
     margin: 0;
     padding: 0;
@@ -9,11 +9,13 @@ body {
 }
 
 header nav {
+    border-bottom: solid;
+    border-color: #020826;
     display: flex;
     justify-content: space-between; /* Ensures space between the logo and nav-links */
     align-items: center;
     padding: 20px;
-    background-color: #eaddcf;
+    background-color: #fffffe;
     color: #020826;
 }
 
