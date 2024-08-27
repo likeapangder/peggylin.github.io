@@ -145,6 +145,7 @@ header nav {
 
 .image-container {
     max-width: 55%;
+    margin-right: -1rem;
 }
 
 .image-container img {

@@ -123,16 +123,16 @@ section {
 }
 
 .project-left {
-    margin-left: 100px;
+    margin-left: 180px;
     text-align: left;
     line-height: 5px;
     border-radius: 8px;
+    margin-top: 26px;
 }
 
 
 .project-left h2 {
     font-size: 35px;
-    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -145,20 +145,24 @@ section {
 }
 
 .project-right {
-    /* margin-right: 500px; */
+    margin-right: 180px;
     text-align: left;
     /* padding-top: 0; */
 }
 
 .project-right p {
     margin-top: 40px;
+    font-family: Poppins;
+    font-size: 18px;
 }
 
 .project-bottom {
-    grid-column: 2 / span 1; /* Start at the second column and span 1 column */
+    /* grid-column: 1 / -1; */
+    grid-column: 2 / span 2;
     grid-row: 2; /* Position directly below the project-right */
     border-radius: 8px;
     overflow: hidden;
+    margin-right: 200px;
 }
 
 .project-bottom img {
