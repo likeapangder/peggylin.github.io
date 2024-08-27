@@ -132,14 +132,21 @@ header nav {
 .text-container h2 {
     font-size: 2.5em;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     margin-left: -1rem;
+}
+
+.text-container h5 {
+    font-size: 1.1em;
+    line-height: 1.2;
+    margin-top: -60px;
+    margin-left: -0.76rem;
 }
 
 .text-container p {
     font-size: 1.1em;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-top: -10px;
     margin-left: -0.76rem;
 }
 
