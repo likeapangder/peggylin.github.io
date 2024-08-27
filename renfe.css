@@ -191,6 +191,10 @@ header nav {
     margin-top: 128px;
 }
 
+.checklist3 {
+    margin-top: 160px;
+}
+
 .check-item {
     display: flex;
     align-items: flex-start;
