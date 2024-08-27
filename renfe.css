@@ -85,13 +85,6 @@ header nav {
     font-style: italic;
 } */
 
-.header .underline {
-    height: 4px;
-    background: linear-gradient(to right, #ff5757, #8c52ff);
-    width: 840px;
-    margin-top: -6px;
-}
-
 .content-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -233,6 +226,20 @@ header nav {
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+.issue-banner3 {
+    background: linear-gradient(to right, #FF5757, #8C52FF);
+    border-radius: 8px;
+    margin-left: -0.76rem;
+    width: 980px;
+    height: auto;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    z-index: 10;
 }
 
 .highlight {
