@@ -167,6 +167,7 @@ header nav {
     justify-content: space-between;
     padding: 16px;
     padding-top: 8px;
+    padding-bottom: 8px;
     max-width: 1200px;
     margin: auto;
     position: relative;
@@ -181,7 +182,7 @@ header nav {
     background: linear-gradient(to right, #FF5757, #8C52FF);
     border-radius: 8px;
     margin-left: -0.76rem;
-    width: 1000px;
+    width: 980px;
     height: 90px;
     padding: 8px;
     margin-bottom: 10px;
@@ -231,7 +232,6 @@ header nav {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-top: 144px;
 }
 
 .highlight {
