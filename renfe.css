@@ -1,7 +1,7 @@
 body {
     font-family: 'Tahoma', sans-serif;
     background-color: #fffffe;
-    color: #082620;
+    color: #020826;
     margin: 0;
     padding: 0;
     letter-spacing: 0.6px;
@@ -22,7 +22,7 @@ header nav {
 .logo {
     display: flex;
     align-items: center;
-    margin: 30px;
+    margin-left: 30px;
 }
 
 .moon {
@@ -56,7 +56,7 @@ header nav {
 .content-wrapper {
 /*     background-color: #eaddcf; */
     background-color: #f9f4ef;
-    padding: 5rem;
+    padding: 2rem;
     margin: 20px auto;
     border-radius: 8px;
     max-width: 1000px;
@@ -81,15 +81,15 @@ header nav {
     font-weight: bold;
 }
 
-.header p {
+/* .header p {
     font-style: italic;
-}
+} */
 
 .header .underline {
     height: 4px;
     background: linear-gradient(to right, #ff5757, #8c52ff);
-    width: 500px;
-    margin: 0;
+    width: 840px;
+    margin-top: -6px;
 }
 
 .content-grid {
