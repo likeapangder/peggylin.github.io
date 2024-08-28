@@ -254,9 +254,9 @@ header nav {
 .next-project {
     text-align: right;
     font-weight: 600;
-    font-size: 24px;
-    margin-right: 5rem;
-    margin-top: 1rem;
+    font-size: 28px;
+    margin-right: 20.5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 0;
 }
@@ -273,4 +273,12 @@ header nav {
 .next-project a:hover {
   box-shadow: inset 100px 100px 0 0 #2f3334;
   color: white;
+}
+
+footer {
+    border-top: solid;
+    background-color: #fffffe;
+    color: #212121;
+    text-align: center;
+    padding: 20px 0;
 }
