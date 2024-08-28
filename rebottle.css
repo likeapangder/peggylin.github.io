@@ -83,7 +83,8 @@ section {
 
 .problem h3, .persona h3, .brainstorm h3, .wireframing h3, .final-prototype h3, .reflection h3 {
     margin-bottom: 1rem;
-    text-decoration: underline;
+    font-size: 24px;
+    /* text-decoration: underline; */
     color: #020826;
 }
 
