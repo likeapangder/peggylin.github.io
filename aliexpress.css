@@ -81,7 +81,7 @@ section {
 /*     margin-left: 4rem; */
 }
 
-.problem h3, .ux-teardown h3, .wireframing h3, .final-prototype h3, .reflection h3 {
+.problem h3, .ux-teardown h3, .wireframing h3, .final-prototype h3, .before-after h3, .reflection h3 {
     margin-bottom: 1rem;
     font-size: 26px;
     /* text-decoration: underline; */
@@ -89,14 +89,15 @@ section {
 }
 
 .timeline {
-  display: inline-block;
-  border: none;
-  margin-top: -10px;
-  padding-right: 30px;
+    display: inline-block;
+    border: none;
+    margin-top: -10px;
+    padding-right: 30px;
 }
 
 .separate {
     display: inline-block;
+    padding-right: 30px;
 }
 
 
@@ -112,6 +113,20 @@ ul li {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+/* .image-container2 {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    display: flex;
+    align-items: center;
+}
+
+.image-container2 img {
+    width: 80%;
+    height: 352px;
+    object-fit: cover;
+    display: block;
+} */
 
 .next-project {
     text-align: right;
