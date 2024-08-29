@@ -69,6 +69,13 @@ section {
     font-size: 36px;
 }
 
+.role {
+    display: inline-block;
+    border: none;
+    margin-top: -10px;
+    padding-right: 30px;
+}
+
 .lighter {
     color: #808080;
 }
