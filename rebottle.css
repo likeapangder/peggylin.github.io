@@ -23,7 +23,8 @@ header nav {
 .dropbtn {
     background-color: #fffffe;
     color: #020826;
-    font-weight: 600;
+    font-weight: 800;
+    letter-spacing: 0.6px;
     font-size: 16px;
     border: none;
   }
@@ -38,7 +39,7 @@ header nav {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #fffffe;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -46,22 +47,29 @@ header nav {
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    color: black;
+    color: #082620;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {
+    /* background-color: #ececec; */
+    background-color: rgb(24,49,182,8%);
+    text-decoration: none;
+}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {
+    display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
     background-color: #fffffe;
-    text-decoration: underline;
+    color: #384DBF;
+    text-decoration: none;
+    border-bottom: 3px solid;
 }
 
 .logo {
