@@ -38,6 +38,7 @@ header nav {
     background-color: #fffffe;
     color: #020826;
     font-weight: 800;
+    font-family: 'Tahoma', sans-serif;
     letter-spacing: 0.6px;
     font-size: 16px;
     border: none;
@@ -147,7 +148,8 @@ section {
 
 .bio-text p {
     font-size: 1.25rem;
-    font-family: Poppins;
+    font-family: Roboto;
+    /* font-family: Poppins; */
     letter-spacing: 1px;
     max-width: 600px;
     margin: 0;
@@ -206,7 +208,8 @@ section {
 
 .project-right p {
     margin-top: 40px;
-    font-family: Poppins;
+    font-family: Roboto;
+    /* font-family: Poppins; */
     font-size: 18px;
 }
 
