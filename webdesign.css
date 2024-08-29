@@ -99,6 +99,16 @@ section {
     grid-template-columns: 0.5fr 0.5fr;
 }
 
+.image1 img {
+    width: 480px;
+    height: auto;
+}
+
+.image2 img {
+    width: 480px;
+    height: auto;
+}
+
 ul {
     margin-left: -1rem;
 }
