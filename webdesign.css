@@ -94,6 +94,11 @@ section {
     color: #020826;
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
 ul {
     margin-left: -1rem;
 }
