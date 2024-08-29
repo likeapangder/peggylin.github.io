@@ -28,7 +28,8 @@ header nav {
 .moon {
     width: 20px;
     height: 20px;
-    background-color: #fca421;
+    background-color: #2f3334;
+    /* background-color: #fca421; */
     border-radius: 50%;
     clip-path: circle(100%);
     margin-right: 10px;
