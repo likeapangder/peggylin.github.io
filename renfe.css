@@ -418,6 +418,8 @@ header nav {
 }
 
 footer {
+    position: relative;
+    width: 100%;
     border-top: solid;
     background-color: #fffffe;
     color: #212121;
