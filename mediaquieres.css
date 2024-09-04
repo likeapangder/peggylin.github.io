@@ -6,3 +6,56 @@
         display: flex;
     }
 }
+
+/* For devices with a width of 768px or less (tablets and smaller) */
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* Stack the columns on top of each other */
+        margin: 20px; /* Reduce margins for smaller screens */
+    }
+
+    .project-left, 
+    .project-right,
+    .project-bottom {
+        margin: 0; /* Remove custom margins for mobile */
+    }
+
+    .project-left h2 {
+        font-size: 28px; /* Adjust the font size */
+    }
+
+    .project-left h5 {
+        font-size: 14px; /* Adjust the font size */
+    }
+
+    .project-right p {
+        font-size: 16px; /* Adjust the font size */
+        margin-top: 20px; /* Adjust spacing */
+    }
+
+    .project-bottom {
+        margin-top: 20px; /* Add some space between content sections */
+        grid-column: 1 / -1; /* Ensure the image takes up full width */
+        grid-row: 2; /* Position directly below the text */
+    }
+
+    .project-bottom img {
+        width: 100%; /* Ensure image is fully responsive */
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+/* For devices with a width of 480px or less (smartphones) */
+@media (max-width: 480px) {
+    .project-left h2 {
+        font-size: 24px; /* Further adjust the font size */
+    }
+
+    .project-right p {
+        font-size: 14px; /* Further adjust the font size */
+    }
+
+    .view-project {
+        font-size: 16px; /* Adjust button font size */
+    }
+}

@@ -145,6 +145,7 @@ header nav {
 .dropbtn {
     background-color: #fffffe;
     color: #020826;
+    text-decoration: none;
     font-weight: 800;
     font-family: 'Tahoma', sans-serif;
     letter-spacing: 0.6px;
@@ -367,12 +368,14 @@ section {
     line-height: 5px;
     border-radius: 8px;
     margin-top: 26px;
+    height: auto;
 }
 
 
 .project-left h2 {
     font-size: 35px;
     margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 .project-left h5 {
@@ -381,6 +384,7 @@ section {
     letter-spacing: 1.5px;
     color: #a8a8a8;
     margin-bottom: 10px;
+    line-height: 1.5;
 
 }
 
