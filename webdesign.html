@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eat Together Website Design</title>
     <link rel="stylesheet" href="webdesign.css">
+    <link rel="stylesheet" href="mediaquieres.css">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -25,6 +26,24 @@
                 </div>
                 <li><a href="Hsin Pei (Peggy) Lin.pdf" target="_blank">Resume</a></li>
             </ul>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">
+              <div class="moon"></div>
+              <span style="font-weight: bold;">Peggy Lin</span>
+            </div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Hsin Pei (Peggy) Lin.pdf" target="_blank" onclick="toggleMenu()">Resume</a></li>
+              </div>
+            </div>
         </nav>
     </header>
   
@@ -117,5 +136,6 @@
         <p>&copy; 2024 Peggy Lin | Thank you for visting my portfolio :)</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

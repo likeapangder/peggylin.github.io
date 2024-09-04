@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ReBottle App UX/UI Design</title>
     <link rel="stylesheet" href="rebottle.css">
+    <link rel="stylesheet" href="mediaquieres.css">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -23,9 +24,26 @@
                       <a href="webdesign.html">Eat Together Web UX</a>
                     </div>
                   </div>
-                <!-- <li><a href="#projects">Projects</a></li> -->
-                <li><a href="https://drive.google.com/file/d/1RWaciJTVXIRQuFuGk3fWR_EebgyayRsY/view?usp=sharing" target="_blank">Resume</a></li> <!-- Link to the Google Drive file -->
+                <li><a href="Hsin Pei (Peggy) Lin.pdf" target="_blank">Resume</a></li> <!-- Link to the Google Drive file -->
             </ul>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">
+              <div class="moon"></div>
+              <span style="font-weight: bold;">Peggy Lin</span>
+            </div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Hsin Pei (Peggy) Lin.pdf" target="_blank" onclick="toggleMenu()">Resume</a></li>
+              </div>
+            </div>
         </nav>
     </header>
   
@@ -131,5 +149,6 @@
         <p>&copy; 2024 Peggy Lin | Thank you for visting my portfolio :)</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
