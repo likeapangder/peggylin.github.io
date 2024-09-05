@@ -1,3 +1,12 @@
+header nav {
+    display: flex; /* Show the regular navigation */
+}
+
+#hamburger-nav {
+    display: none; /* Hide the hamburger menu */
+}
+
+
 @media screen and (max-width: 1200px) {
     header nav {
         display: none;
@@ -5,6 +14,7 @@
     #hamburger-nav {
         display: flex;
     }
+
 }
 
 /* For devices with a width of 768px or less (tablets and smaller) */

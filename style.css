@@ -20,12 +20,13 @@ header nav {
 
 /* HAMBURGER MENU */
 #hamburger-nav {
-    display: none;
+    display: block;
 }
 
 .hamburger-menu {
     position: relative;
     display: inline-block;
+    margin: 0;
 }
 
 .hamburger-icon {
@@ -106,6 +107,66 @@ header nav {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
+/* General Dropdown Menu Styles */
+ul.dropdown-content {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    top: 100%; /* Position it directly below the dropdown button */
+    left: 0;
+    background-color: #fffffe;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.dropdown-content li {
+    display: block;
+}
+
+ul.dropdown-content li a {
+    padding: 10px;
+    color: #020826;
+    text-decoration: none;
+    /* display: block; */
+}
+
+ul.dropdown-content li a:hover {
+    background-color: rgb(107, 137, 100, 8%);
+    /* text-decoration: none; */
+}
+
+/* Show the dropdown when the dropdown button is clicked */
+.dropdown.open .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-btn {
+    display: block;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #020826;
+    text-decoration: none;
+    background-color: #fffffe;
+    border: none;
+    cursor: pointer;
+}
+
+/* Make sure to hide dropdown in default display */
+.menu-links ul.dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fffffe;
+}
+
 
 .logo {
     display: flex;
