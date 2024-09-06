@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Tahoma', sans-serif;
     background-color: #fffffe;
@@ -257,6 +262,12 @@ ul.dropdown-content li a:hover {
     border-bottom: 3px solid;
 }
 
+.container {
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+
 /* SECTIONS */
 
 /* section {
@@ -491,12 +502,30 @@ section {
     color: #6B8964;
 }
 
-footer {
+/* footer {
     position: relative;
     width: 100%;
     border-top: solid;
     background-color: #fffffe;
-    color: #212121;
+    color: #020826;
     text-align: center;
+    margin-top: auto;
+    padding: 2rem 1rem;
     padding: 20px 0;
+} */
+
+footer {
+    background-color: #fffffe;
 }
+
+.footerBottom {
+    width: 100%;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top: solid;
+}
+
+.footerBottom p {
+    color: #020826;
+}
+
