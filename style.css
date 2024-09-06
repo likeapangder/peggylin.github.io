@@ -271,6 +271,11 @@ ul.dropdown-content li a:hover {
 
 /* SECTIONS */
 
+section {
+    padding: 20px;
+    margin-bottom: 20px; /* Space between section and footer */
+}
+
 /* section {
     padding: 2rem;
 } */
