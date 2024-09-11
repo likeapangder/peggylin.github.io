@@ -370,7 +370,7 @@ section {
     text-align: initial;
     line-height: 5px;
     border-radius: 8px;
-    margin-top: 26px;
+    /* margin-top: 26px; */
     height: auto;
 }
 
