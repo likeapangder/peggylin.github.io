@@ -310,7 +310,7 @@ ul li {
 }
 
 .next-project a:hover {
-  box-shadow: inset 100px 100px 0 0 rgb(229, 47, 32, 85%);
+  box-shadow: inset 100px 100px 0 0 rgb(24,49,182,85%);
   color: white;
 }
 
