@@ -50,7 +50,7 @@
 
     <div class="content-wrapper">
         <section class="image-header">
-            <img src="agent-hero.png" alt="AI Agent Interface">
+            <img src="agent-hero.png" alt="LessonLoop">
         </section>
 
         <section id="summary" class="summary">
@@ -61,7 +61,7 @@
             <span class="lighter">Jan 2026 (10 Days)</span>
             <div class="separate">
                 <strong>Tools:</strong> 
-                <span class="lighter">Python / LLMs / Streamlit</span> 
+                <span class="lighter">Python / LLMs / Claude</span> 
             </div>
             <div class="separate">
                 <strong>Role:</strong> 
@@ -79,16 +79,18 @@
             <ol>
                 <li>Ingests raw .mp4 and bilingual transcripts.</li>
                 <li>Generates a formatted "Student Recap" ready for immediate sending.</li>
+            </ol>
+        </section>
+
+        <section id="wireframing" class="wireframing">
+            <h3>How It Works</h3>
+            <ol>
                 <li>The Logic Flow: <br>
                 1.Input: Video File (.mp4) ➡️ Tool: Whisper Script ➡️ Data: Text File (.txt)<br>
                 2.Trigger: User Command ("Boot Agent")<br>
                 3.Brain: Claude reads Data + Rules (Master_Teaching_Guide.md)<br>
                 4.Output: Perfect Email Draft</li>
             </ol>
-        </section>
-
-        <section id="wireframing" class="wireframing">
-            <h3>How It Works</h3>
             <div class="image-container">
                 <img src="agent-process.png" alt="Agent Workflow Diagram">
             </div>
